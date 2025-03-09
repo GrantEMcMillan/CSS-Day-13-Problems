@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(32, 144, 144);
+  border-radius: 50%;
+  animation: move 5s infinite linear;
+  margin: auto;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg) translateY(100px);
+    background-color: blue;
+  }
+
+  to {
+    transform: rotate(360deg) translateY(100px);
+    background-color: red;
+  }
+}
